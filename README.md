@@ -2,7 +2,7 @@
 
 A simple offline RAG system that:
 
-- Parses uploaded Indian insurance policy PDFs  
+- Parses uploaded insurance policy PDFs  
 - Performs semantic search using the free all-MiniLM embedding model  
 - Answers questions using a free local LLM (Llama3 via Ollama)  
 - Shows retrieved clauses for transparency to prevent hallucination.
@@ -29,7 +29,7 @@ streamlit run app.py
 
 ## Testing Reference Document
 
-The assistant was tested using the PDF file **gecc129849942.pdf**, which contains real commercial Indian-style home insurance wording with sections on coverage, limits, exclusions, and conditions.  
+The assistant was tested using the PDF file **gecc129849942.pdf**, which contains real commercial insurance wording with sections on coverage, limits, exclusions, and conditions.  
 This document was used **only for evaluation of retrieval and answer generation**, and the policy text itself is not claimed as original content of this repository.
 
 ### Example Inputs & Outputs
